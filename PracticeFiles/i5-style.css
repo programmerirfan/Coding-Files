@@ -1,3 +1,3 @@
-.external{text-align: center;}
-.lorem{}
-.boldlorem{}
+.external{text-align: center;background-color: red;color:white;}
+.lorem{font-size: 25px;padding: 2px;margin: 5px;}
+.boldlorem{color: white;background-color: red;margin: 5px;padding: 5px;border-radius: 5px;}
