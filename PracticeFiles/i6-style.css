@@ -1,23 +1,22 @@
 .container{width: 1250px;margin: auto;}
-.head{width: 100%; height: 80px; background-color:#1E1E1E;}
-.headname{color: white; text-align: center;padding: 10px;padding-top: 20px;}
-.subtext{color:azure;}
+.head{width: 100%; height: 80px; background-color:#1E1E1E;overflow: hidden;}
+.headname{color: white; text-align: center;}
+.subtext{color:azure;font-size: 20px;}
+
+.navigation{width: 100%;text-align: center; background-color:#38454c;height: 50px;overflow: hidden;}
+
+
+.foratag{width: 80%;padding: 10px;height: 100%;}
+
+
+.home{color: aliceblue;text-decoration: none; font-size: 20px;margin-right: 25px;margin-left: 150px;}
+.about{color: aliceblue;text-decoration: none; font-size: 20px;margin-right: 25px;}
+.portfolio{color: aliceblue;text-decoration: none; font-size: 20px;margin-right: 25px;}
+.contact{color: aliceblue;text-decoration: none; font-size: 20px;}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.foot{width: 100%; height: 80px;background-color:#1e1e1e; color:aliceblue;}
+.foot{width: 100%; height: 80px;background-color:#38454c; color:aliceblue;}
 .foottext{text-align: center;padding: 20px; padding-top: 20px;}
