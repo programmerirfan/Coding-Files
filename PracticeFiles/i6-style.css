@@ -62,17 +62,55 @@
   font-size: 20px;
 }
 
+.aboutwithprojects{height: 612px; background-color: #F4F4F4}
+
 #about {
-  width: 40%;
+  width: 35%;
   font-size: 20px;
   float: left;
+  padding: 20px;
+}
+
+.aboutme {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.aboutname {
+  color: #666;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.abouttext {
+  color: #666;
+  margin-bottom: 20px;
 }
 
 #projects {
-  width: 60%;
+  width: 58.6%;
   font-size: 20px;
   float: right;
+  background-color: #F6F6F6;
+  padding: 20px;
 }
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
 
 .foot {
   width: 100%;
