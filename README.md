@@ -1,2 +1,2 @@
 # Coding-Files
-all those codes are shown in my learning phase
+All the codes shown here were created during my learning phase.
