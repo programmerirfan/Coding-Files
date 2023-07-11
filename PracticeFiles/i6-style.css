@@ -62,9 +62,8 @@
   font-size: 20px;
 }
 
-.aboutwithprojects{height: 612px; background-color: #F4F4F4}
-
-#about {
+#about {background-color: #f4f4f4;
+  height: 612px;
   width: 35%;
   font-size: 20px;
   float: left;
@@ -92,7 +91,7 @@
   width: 58.6%;
   font-size: 20px;
   float: right;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding: 20px;
 }
 
@@ -110,7 +109,6 @@
   color: #666;
   margin-bottom: 10px;
 }
-
 
 .foot {
   width: 100%;
