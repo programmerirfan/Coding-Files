@@ -170,6 +170,48 @@
 }
 
 
+.contact-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-details h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contact-details .details p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-details .details p i {
+  margin-right: 10px;
+}
+
+.contact-details .details p:nth-child(odd) {
+  color: #333;
+}
+
+.contact-details .details p:nth-child(even) {
+  color: #007bff;
+}
+
+.contact-details .social-media a {
+  color: #333;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact-details .social-media a:hover {
+  color: #007bff;
+}
 
 
 
