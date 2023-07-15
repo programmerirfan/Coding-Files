@@ -62,7 +62,8 @@
   font-size: 20px;
 }
 
-#about {background-color: #f4f4f4;
+#about {
+  background-color: #f4f4f4;
   height: 612px;
   width: 35%;
   font-size: 20px;
@@ -86,6 +87,7 @@
   color: #666;
   margin-bottom: 20px;
 }
+
 .bio {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -95,9 +97,6 @@
   border: 1px solid #ccc;
   color: #333;
 }
-
-
-
 
 #projects {
   width: 58.6%;
@@ -169,7 +168,6 @@
   background-color: #45a049;
 }
 
-
 .contact-details {
   background-color: #f9f9f9;
   padding: 20px;
@@ -207,31 +205,12 @@
   font-size: 24px;
   margin-right: 10px;
   transition: color 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .contact-details .social-media a:hover {
   color: #007bff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .foot {
   width: 100%;
