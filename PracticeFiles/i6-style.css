@@ -88,8 +88,6 @@
   margin-bottom: 20px;
 }
 
-
-
 #projects {
   width: 58.6%;
   font-size: 20px;
@@ -125,7 +123,7 @@
 }
 
 .hire-me h2 {
-  color: #333;
+  color: #ff8c00;
   font-size: 28px;
   margin-bottom: 15px;
   text-align: center;
@@ -141,10 +139,12 @@
   color: #ff6600;
   font-weight: bold;
   margin-top: 20px;
+  font-size: 25px;
+  font-style: italic;
 }
 
 .hire-me button {
-  background-color: #4caf50;
+  background-color: limegreen;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -154,10 +154,6 @@
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.hire-me button:hover {
-  background-color: #45a049;
 }
 
 .contact-details {
@@ -189,7 +185,7 @@
 }
 
 .contact-details .details p:nth-child(even) {
-  color: #007bff;
+  color: lime;
 }
 
 .contact-details .social-media a {
@@ -217,7 +213,10 @@
   padding-top: 20px;
 }
 
+
+
+
 /* Additional styles for Skills List Names */
 .skills-list li {
-  color: #ff8c00;
+  color: limegreen;
 }
