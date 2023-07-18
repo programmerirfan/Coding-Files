@@ -1,27 +1,78 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Beginning Class</title>
-  <link href="/PracticeFiles/css-practice/style1.css" rel="stylesheet" type="text/css" />
+  <title>THive - T-Shirt Company</title>
+  <link href="/PracticeFiles/css-practice/style1.css" rel="stylesheet" type="text/css" /> <!-- Link to your CSS file -->
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section id="home">
+      <h1>Welcome to THive</h1>
+      <p>Discover the best collection of t-shirts for every occasion.</p>
+    </section>
 
+    <section id="products">
+      <h2>Our Products</h2>
 
+      <div class="product-grid">
+        <div class="product">
+          <img src="tshirt-image1.jpg" alt="T-Shirt Image">
+          <h3>T-Shirt Name 1</h3>
+          <p>Description of the T-Shirt 1</p>
+          <p>Price: $19.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="buy-now">Buy Now</button>
+        </div>
 
+        <div class="product">
+          <img src="tshirt-image2.jpg" alt="T-Shirt Image">
+          <h3>T-Shirt Name 2</h3>
+          <p>Description of the T-Shirt 2</p>
+          <p>Price: $24.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="buy-now">Buy Now</button>
+        </div>
 
+        <div class="product">
+          <img src="tshirt-image3.jpg" alt="T-Shirt Image">
+          <h3>T-Shirt Name 3</h3>
+          <p>Description of the T-Shirt 3</p>
+          <p>Price: $21.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="buy-now">Buy Now</button>
+        </div>
 
+        <!-- Add more product divs for other t-shirts -->
 
+      </div>
+    </section>
 
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Learn more about our company and mission.</p>
+    </section>
 
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch with our team for any inquiries.</p>
+    </section>
+  </main>
 
-
-
-
-
-
-
-  
+  <footer>
+    <p>&copy; 2023 THive - T-Shirt Company. All rights reserved.</p>
+  </footer>
 </body>
 </html>
