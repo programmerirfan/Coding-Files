@@ -46,11 +46,12 @@ nav {
   font-size: 16px;
   padding: 8px 12px;
   border-radius: 4px;
+  background-color: #007bff;
   transition: background-color 0.3s;
 }
 
 .menu a:hover {
-  background-color: #555;
+  background-color: #0056b3;
 }
 
 /* Main styles */
@@ -66,7 +67,7 @@ h1, h2, h3 {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 20px;
   justify-content: center; /* Center the grid within the container */
 }
@@ -77,18 +78,29 @@ h1, h2, h3 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
 }
 
 .product:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .product img {
   width: 100%;
-  max-height: 300px;
+  max-height: 200px;
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 8px;
+  flex: 1; /* Occupy remaining space in the flex container */
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
 }
 
 .add-to-cart, .buy-now {
@@ -104,7 +116,6 @@ h1, h2, h3 {
 .add-to-cart:hover, .buy-now:hover {
   background-color: #0056b3;
 }
-/* ... (previous CSS code) ... */
 
 /* About Us section styles */
 #about {
@@ -115,7 +126,8 @@ h1, h2, h3 {
 
 #about h2 {
   color: #333;
-  font-size: 28px;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 #about p {
@@ -126,23 +138,23 @@ h1, h2, h3 {
 
 /* Contact Us section styles */
 #contact {
-  background-color: #007bff;
+  background-image: linear-gradient(to bottom, #007bff, #0056b3);
   color: #fff;
   padding: 40px;
   text-align: center;
 }
 
 #contact h2 {
-  font-size: 28px;
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 #contact p {
+  color: #f9f9f9;
   font-size: 18px;
   line-height: 1.6;
 }
-
-/* ... (remaining CSS code) ... */
-
 
 /* Footer styles */
 footer {
@@ -150,4 +162,8 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
 }
