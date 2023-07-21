@@ -17,10 +17,8 @@ header {
   padding: 10px;
 }
 
-.logo {background-color: black; width: 80px; height: 30px;
 
-}
-
+.logo img {width:50px;margin-top: 7px;margin-left: 7px;}
 nav {
   display: flex;
   justify-content: space-between;
