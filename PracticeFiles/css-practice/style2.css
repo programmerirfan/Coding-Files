@@ -1,1 +1,16 @@
-body {max-width: 1250px;}
+body {
+  max-width: 1250px;
+  background-image: url(/PracticeFiles/practice-media/ai-nuclear-energy-background-future-innovation-disruptive-technology.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Add this line with the help of chat gpt */
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+
+}
+.ulcss{list-style: none;}
