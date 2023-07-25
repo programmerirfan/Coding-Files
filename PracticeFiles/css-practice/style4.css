@@ -22,10 +22,28 @@ body {
   outline-offset: 3px;
   padding: 3px;
 }
-.Irfan2{text-align: center;
-border-bottom: 3px solid whitesmoke;}
-.shm{text-align: center;
+.Irfan2 {
+  text-align: center;
+  border-bottom: 3px solid whitesmoke;
+}
+.shm {
+  text-align: center;
   border-left: 5px solid whitesmoke;
-border-right: 5px solid whitesmoke;
-width: 180px;margin: auto;
+  border-right: 5px solid whitesmoke;
+  width: 180px;
+  margin: auto;
+}
+hr {
+  color: rgb(236, 241, 244);
+  height: 1px;
+  background-color: aliceblue;
+}
+
+.linepractice {
+  font-size: 25px;
+  text-indent: 22%;
+  text-transform: capitalize;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  line-height: 35px;
 }
