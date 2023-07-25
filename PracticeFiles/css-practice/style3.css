@@ -29,3 +29,35 @@ border: 3px solid blue;
   padding: 5px;
   font-size: 20px;
 }
+.divai{
+width: 400px;
+height: 400px;
+background-color: gold;
+text-align:center;
+font-size: 30px;
+padding-top: 5%;
+color: aliceblue;
+float: left;
+border: 5px solid blue;
+margin: 20px;
+border-radius: 50%;
+
+}
+
+span {margin-top: 160px;display: block;}
+
+
+
+.divmeta{
+float: right;
+ width: 400px;
+height: 400px;
+background-color: blue;
+text-align:center;
+font-size: 30px;
+padding-top: 5%;
+color: aliceblue;
+border: 5px solid gold;
+margin: 20px;
+border-radius: 50%;
+}
