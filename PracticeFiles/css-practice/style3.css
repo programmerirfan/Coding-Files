@@ -23,41 +23,59 @@
 }
 
 .meta {
-border: 3px solid blue;
+  border: 3px solid blue;
   margin: 10px;
   border-radius: 5px;
   padding: 5px;
   font-size: 20px;
 }
-.divai{
-width: 400px;
-height: 400px;
-background-color: gold;
-text-align:center;
-font-size: 30px;
-padding-top: 5%;
-color: aliceblue;
-float: left;
-border: 5px solid blue;
-margin: 20px;
-border-radius: 50%;
-
+.divai {
+  width: 400px;
+  height: 400px;
+  background-color: gold;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5%;
+  color: aliceblue;
+  float: left;
+  border: 5px solid blue;
+  margin: 15px;
+  border-radius: 50%;margin: auto;
 }
 
-span {margin-top: 160px;display: block;}
+span {
+  margin-top: 160px;
+  display: block;
+}
 
+.divmeta {
+  float: right;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5%;
+  color: aliceblue;
+  border: 5px solid gold;
+  margin: 15px;
+  border-radius: 50%;margin: auto;
+}
 
-
-.divmeta{
-float: right;
- width: 400px;
-height: 400px;
-background-color: blue;
-text-align:center;
-font-size: 30px;
-padding-top: 5%;
+.vs{margin: auto;
+  width: 100px;
+height: 100px;
+background-color: red;
 color: aliceblue;
-border: 5px solid gold;
-margin: 20px;
-border-radius: 50%;
+border-radius: 60px;
+text-align: center;
+overflow: hidden;
+display: inline-block;
+margin-left: 150px;
+margin-top: 200px;
+}
+
+.vs2{display: block;
+  margin-top: 40px;
+
 }
