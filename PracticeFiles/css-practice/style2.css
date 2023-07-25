@@ -8,13 +8,28 @@ body {
   font-size: 20px;
   text-align: center;
 }
+.wlc {
+  color: aliceblue;
+}
 
+#about {
+  color: aliceblue;
+}
 main {
   text-align: center;
-
 }
-.ulcss{list-style: none;}
 
+.ulcss {
+  list-style: none;
+  color: rgb(22, 23, 22);
+}
 
+.image-gallery img {
+  width: 110px;
+  padding: 10px;
+  border-radius: 25px;
+}
 
-.image-gallery img {width: 110px;padding: 10px;}
+.foott {
+  color: aliceblue;
+}
