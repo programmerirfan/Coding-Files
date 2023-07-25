@@ -1,0 +1,31 @@
+.container {
+  width: 1250px;
+  margin: auto;
+}
+.ai {
+  border-width: 3px;
+  margin: 10px;
+  border-style: solid;
+  border-color: gold;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+.aih2 {
+  text-align: center;
+  width: 1200px;
+  color: gold;
+}
+#metah2 {
+  text-align: center;
+  width: 1200px;
+  color: blue;
+}
+
+.meta {
+border: 3px solid blue;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
