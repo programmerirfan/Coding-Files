@@ -1,0 +1,12 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+.liststyle {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
