@@ -1,24 +1,55 @@
 .container {
   margin: auto;
-
 }
-.tittlefrpg{
+.tittlefrpg {
   background-color: black;
   color: aliceblue;
-text-align: center;padding: 10px;font-family: 'Franklin Gothic Medium';
-
+  text-align: center;
+  padding: 5px 10px;
 }
-.fa-twitter{
+.fa-twitter {
   color: #00acee;
   font-size: 40px;
 }
-.fa-hashtag{
-color: black;
-font-size: 40px;
+.fa-hashtag {
+  color: black;
+  font-size: 40px;
 }
-.sptw{font-size: 40px;}
-.material-icons-outlined{
-color: #00acee;font-size: 35px;
+.sptw {
+  font-size: 40px;
 }
-.myname{font-size: 40px;display: inline;}
-.verify{text-align: center;font-size: 35px;}
+.material-icons-outlined {
+  color: #00acee;
+  font-size: 35px;
+}
+.myname {
+  font-size: 40px;
+  display: inline;
+}
+.verify {
+  text-align: center;
+  font-size: 35px;
+}
+hr {
+  height: 5px;
+  background-color: black;
+}
+
+.linkstag {
+  color: antiquewhite;
+  background-color: black;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.alllinks {
+  font-size: 30px;
+  text-align: center;line-height: 50px;
+
+}
+
+
+
+
+
+
