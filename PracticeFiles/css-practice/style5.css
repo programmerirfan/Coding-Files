@@ -44,12 +44,53 @@ hr {
 
 .alllinks {
   font-size: 30px;
-  text-align: center;line-height: 50px;
-
+  text-align: center;
+  line-height: 50px;
+}
+a {
+  text-decoration: none;
 }
 
+a:hover {
+  background-color: black;
+  color: whitesmoke;
+  transition: 1s;
+}
+a:active {
+  color: red;
+  background-color: whitesmoke;
+}
+/* in needed-
+a:visited {
+  border-color: blue;
+}
+*/
 
+.google {
+  color: black;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
 
+.fa-google {
+  color: #1976d2;
+}
 
+.ecm {
+  color: black;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
 
+.fa-cart-shopping {
+  color: rgb(253, 175, 29);
+}
 
+.csslink {
+  color: black;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
