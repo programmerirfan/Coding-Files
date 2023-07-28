@@ -10,4 +10,19 @@ body {
   border-radius: 5px;
   margin-top: 7px;
 }
-.ulbox{background-color: black;color: whitesmoke;padding: 5px 10px;}
+.ulbox {
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+.ul1 {
+  list-style: square;
+  width: 600px;
+  margin-left: 400px;
+}
+.ul2 {
+  list-style: inside url(/PracticeFiles/practice-media/diarubi.png);
+  width: 600px;
+  margin-left: 380px;
+}
