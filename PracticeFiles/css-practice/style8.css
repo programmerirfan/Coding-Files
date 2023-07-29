@@ -26,3 +26,13 @@ h2::first-letter {
   font-size: 39px;
   color: red;
 }
+.color{overflow: hidden;}
+.grad{height: 400px;width: 400px;margin: 20px;
+background: linear-gradient(90deg,white 20%,black 50%,#130f40);float: right;
+}
+
+.grad2{height: 400px;width: 400px;margin: 20px;
+background: radial-gradient(black 1%,white, black);
+float: left;
+}
+.foot{text-align: center; background-color: #130f40;color: white;}
