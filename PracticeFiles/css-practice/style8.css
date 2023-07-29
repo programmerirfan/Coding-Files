@@ -1,1 +1,28 @@
-body{max-width: 1200px; margin: auto;}
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+/* Styles for the normal state */
+.pseudo {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+
+  transition: 2s ease-in-out; /* Apply transition to multiple properties */
+}
+
+/* Styles for the hover state */
+.pseudo:hover {
+  background-color: white;
+  color: black;
+}
+h3::after {
+  content: url(/PracticeFiles/practice-media/2572630.png);
+}
+h2::first-letter {
+  font-size: 39px;
+  color: red;
+}
