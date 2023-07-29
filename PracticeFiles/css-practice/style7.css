@@ -1,2 +1,13 @@
 body{width: 1250px;margin: auto;}
 h2{color: whitesmoke;background-color: black;text-align: center;margin-top: 5px;padding: 5px 10px;}
+
+.mark{border-collapse: collapse;
+  border: 3px solid black; text-align: center;}
+.mark th{border: 2px solid black;}
+
+
+
+
+#Salary{border-collapse: collapse;
+border: 3px solid rgb(15, 73, 246); text-align: center;}
+#Salary th {border: 2px solid rgb(15, 73, 246);}
