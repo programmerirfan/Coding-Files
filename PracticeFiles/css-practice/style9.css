@@ -50,3 +50,12 @@ body {
     0.5
   ); /* Add a semi-transparent background for the text */
 }
+.namebox{
+width: 600px; height: 500px;background-color: black;color: white;
+margin: auto;
+
+}
+.namebox h2{
+position: relative;top: 50%;left: 200px;
+transform: rotate(45deg);
+}
