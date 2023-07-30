@@ -53,9 +53,20 @@ body {
 .namebox{
 width: 600px; height: 500px;background-color: black;color: white;
 margin: auto;
+transition: 2s;
 
 }
 .namebox h2{
-position: relative;top: 50%;left: 200px;
+position: relative;top: 45%;left: 70px;
 transform: rotate(45deg);
+transition: all 1.5s ;
+
+}
+
+.namebox h2:hover{transform: rotate(405deg);}
+.namebox:hover{
+
+  width: 400px; height: 330px;background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);border: 1px solid black;border-radius: 50%;
+  margin-top: 30px;
+  transform: rotate(360deg);
 }
