@@ -1,0 +1,9 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+.anim {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
