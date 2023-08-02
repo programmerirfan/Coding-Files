@@ -1,0 +1,12 @@
+body{margin: 0px auto;
+padding: 0px;
+box-sizing: border-box;
+background-color: whitesmoke;
+
+}
+
+header{background-color: #2d3436;
+color: whitesmoke;width: 100%;
+
+}
+.logo img{width: 150px;}
