@@ -6,7 +6,8 @@ background-color: whitesmoke;
 }
 
 header{background-color: #2d3436;
-color: whitesmoke;width: 100%;
+color: whitesmoke;width: 1250px;margin: auto;
 
 }
-.logo img{width: 150px;}
+.logo img{width: 150px;float: left;padding: 5px;}
+.logo h2{width: 1100px; font-size: 30px; text-align: center; padding: 10px;}
