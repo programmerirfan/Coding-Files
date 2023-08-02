@@ -7,13 +7,18 @@
   text-align: center;
 }
 main {
-  width: 90%;
+  width: 1200px;
   margin: 10px auto;
   border: 1px solid #ddd;
   color: white;
+  display: grid;
+  grid-template-rows: 60px 100px 200px 60px;
+  grid-template-columns:repeat(3,1fr) 150px ;
+  grid-gap: 10px;
+
 }
 header {
-  background-color: #2c3e50;
+  background-color: #2c3e50;grid-column: 1/-1;
 }
 .intro {
   background-color: dimgray;
@@ -25,11 +30,11 @@ header {
   background-color: #7f8c8d;
 }
 .side {
-  background-color: #bdc3c7;
+  background-color: #bdc3c7;grid-row: 2/4;grid-column: 4/5;
 }
 .content {
-  background-color: #2d3436;
+  background-color: #2d3436; grid-column: 1/4;
 }
 footer {
-  background-color: #2c3e50;
+  background-color: #2c3e50;grid-column: 1/-1;
 }
