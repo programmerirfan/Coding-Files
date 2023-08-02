@@ -81,7 +81,7 @@ header {
 
 .navbar ul li:hover > ul {
   display: block;
-  transition-delay: 0.2s;
+  transition-delay: 1s;
   margin-top: 10px;
 }
 
