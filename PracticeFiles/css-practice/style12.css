@@ -1,28 +1,89 @@
-body{margin: 0px auto;
-padding: 0px;
-box-sizing: border-box;
-background-color: whitesmoke;
-
+body {
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
 }
 
-header{background-color: #2d3436;
-color: whitesmoke;width: 1280px;margin: auto;
-display: flex;
+header {
+  background-color: #2d3436;
+  color: whitesmoke;
+  width: 1280px;
+  margin: auto;
+  display: flex;
 }
-.logo{display: flex;}
-.logo img{width: 150px;padding: 5px; display: inline;height: fit-content;margin-left: 15px;}
-.logo h2{ display:inline;margin-left: 15px;}
 
-.navbar{display: flex;justify-content: center;margin-left: 220px;}
-.navbar ul{list-style: none;}
-.navbar ul li{ background-color: #262626;
-width: 130px;height: 30px; float: right;
-text-align: center; color: whitesmoke;padding-top: 15px;
-font-size: 15px;
-text-transform: uppercase;
+.logo {
+  display: flex;
 }
-.navbar ul li a{text-decoration: none; color: whitesmoke}
 
-.navbar ul li a:hover{
+.logo img {
+  width: 150px;
+  padding: 5px;
+  display: inline;
+  height: fit-content;
+  margin-left: 15px;
+  margin-top: 8px;
+}
 
+.logo h2 {
+  display: inline;
+  margin-left: 15px;
+  line-height: 38px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  background-color: #262626;
+  width: 110px;
+  height: 20px;
+  float: right;
+  text-align: center;
+  color: whitesmoke;
+  padding: 15px;
+  line-height: 20px;
+  font-size: 17px;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navbar ul li:hover {
+  background-color: black;
+  transition: background-color 1.5s;
+}
+
+.navbar ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -12px;
+  border-radius: 0 0 5px 5px;
+
+  width: 120px;
+  z-index: 1;
+}
+
+.navbar ul li:hover > ul {
+  display: block;
+  transition-delay: 0.2s;
+}
+
+.navbar ul li:hover > ul li {
+  margin-top: 10px;
 }
