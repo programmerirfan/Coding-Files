@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+main {
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  color: white;
+}
+header {
+  background-color: #2c3e50;
+}
+.intro {
+  background-color: dimgray;
+}
+.about {
+  background-color: #95a5a6;
+}
+.contact {
+  background-color: #7f8c8d;
+}
+.side {
+  background-color: #bdc3c7;
+}
+.content {
+  background-color: #2d3436;
+}
+footer {
+  background-color: #2c3e50;
+}
