@@ -3,12 +3,13 @@ body {
   padding: 0px;
   box-sizing: border-box;
   background-color: whitesmoke;
+  max-width: 1250px;
 }
 
 header {
   background-color: #2d3436;
   color: whitesmoke;
-  width: 1280px;
+  width: 1250px;
   margin: auto;
   display: flex;
 }
@@ -88,3 +89,23 @@ header {
 .navbar ul li:hover > ul li {
   margin-top: 10px;
 }
+/*footer section start*/
+
+
+footer{position: relative;
+bottom: -50%;
+text-align: center;
+background-color: #2d3436;color: white;
+width: 100%; margin: auto;
+}
+.pname{font-size: 40px;padding-top: 20px; padding-bottom: 5px;}
+
+.footdc{width: 90%;margin: auto;}
+
+.footdc p{font-size: 18px;}
+
+
+.iconx{font-size: 40px;}
+
+
+.copyr{padding:15px 10px;font-size: 20px;}
