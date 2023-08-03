@@ -91,21 +91,35 @@ header {
 }
 /*footer section start*/
 
-
-footer{position: relative;
-bottom: -50%;
-text-align: center;
-background-color: #2d3436;color: white;
-width: 100%; margin: auto;
+footer {
+  position: relative;
+  bottom: -50%;
+  text-align: center;
+  background-color: #2d3436;
+  color: white;
+  width: 100%;
+  margin: auto;
 }
-.pname{font-size: 40px;padding-top: 20px; padding-bottom: 5px;}
+.pname {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
 
-.footdc{width: 90%;margin: auto;}
+.footdc {
+  width: 90%;
+  margin: auto;
+}
 
-.footdc p{font-size: 18px;}
+.footdc p {
+  font-size: 18px;
+}
 
+.iconx {
+  font-size: 40px;
+}
 
-.iconx{font-size: 40px;}
-
-
-.copyr{padding:15px 10px;font-size: 20px;}
+.copyr {
+  padding: 15px 10px;
+  font-size: 20px;
+}
