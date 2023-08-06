@@ -93,7 +93,66 @@ header {
 
 
 
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+  margin: 50px auto -200px auto; /* Adjusted margins */
+}
 
+.login-container h2 {
+  margin-bottom: 15px;
+}
+
+.login-container form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.login-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox-group label {
+  margin-left: 10px;
+}
+
+.login-container button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.extra-options {
+  margin-top: 10px;
+}
+
+.extra-options a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.extra-options span {
+  margin: 0 5px;
+}
 
 
 
