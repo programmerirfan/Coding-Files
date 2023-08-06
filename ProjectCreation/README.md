@@ -1,2 +1,2 @@
 # Coding-Files
-this folder will use for root folder to create project.
+this folder will use as the root folder to create projects.
